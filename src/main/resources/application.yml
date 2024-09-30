@@ -1,0 +1,21 @@
+server:
+  port: 8085
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: cashouts
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/cashouts
+    username: postgres
+    password: linatoro0411
+
+#server.port=8085
+#spring.jpa.database=POSTGRESQL
+#spring.sql.init.platform=postgres
+#spring.datasource.url=jdbc:postgresql://localhost:5432/cashouts
+#spring.datasource.username=postgres
+#spring.datasource.password=admin
+#spring.jpa.show-sql=true
+#spring.jpa.generate-ddl=true
+#spring.jpa.hibernate.ddl-auto=update
